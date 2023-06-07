@@ -1,0 +1,6 @@
+E:\lulu\认证考试\Net\Test\Models\bin\Debug\Models.dll
+E:\lulu\认证考试\Net\Test\Models\bin\Debug\Models.pdb
+E:\lulu\认证考试\Net\Test\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+E:\lulu\认证考试\Net\Test\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\lulu\认证考试\Net\Test\Models\obj\Debug\Models.dll
+E:\lulu\认证考试\Net\Test\Models\obj\Debug\Models.pdb

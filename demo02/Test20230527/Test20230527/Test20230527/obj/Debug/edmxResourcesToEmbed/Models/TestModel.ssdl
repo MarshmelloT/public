@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bidding">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProTypeID" Type="int" Nullable="false" />
+    <Property Name="ProAddress" Type="varchar" MaxLength="200" />
+    <Property Name="Input" Type="varchar" MaxLength="20" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Charge" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Unit" Type="varchar" MaxLength="100" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="Contacts" Type="varchar" MaxLength="20" />
+    <Property Name="Tel" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ProjectType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TestModelStoreContainer">
+    <EntitySet Name="Bidding" EntityType="Self.Bidding" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectType" EntityType="Self.ProjectType" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,11 @@
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\BLL.dll
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\BLL.pdb
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\DAL.dll
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\Models.dll
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\DAL.pdb
+E:\lulu\认证考试\Net\Test\BLL\bin\Debug\Models.pdb
+E:\lulu\认证考试\Net\Test\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\lulu\认证考试\Net\Test\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\lulu\认证考试\Net\Test\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\lulu\认证考试\Net\Test\BLL\obj\Debug\BLL.dll
+E:\lulu\认证考试\Net\Test\BLL\obj\Debug\BLL.pdb
