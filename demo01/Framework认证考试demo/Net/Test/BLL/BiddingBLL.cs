@@ -22,9 +22,10 @@ namespace BLL
         {
             //int typeId = Convert.ToInt32(typeId);
             //调用查询工程项目的数据访问层方法，并用data变量接收
-            DataTable data = BiddingDAL.getBiddingList(proName, ProTypeID);
+            
             //等下用于存储工程项目列表
             List<Bidding> biddingList = new List<Bidding>();
+            DataTable data = BiddingDAL.getBiddingList(proName, ProTypeID);
             //判断是否大于0
             if (data.Rows.Count > 0)
             {
